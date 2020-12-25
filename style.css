@@ -3,3 +3,43 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  color: rgb(46, 46, 46);
+  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+}
+
+header {
+  margin: 30px auto 0 auto;
+  width: 72vw;
+}
+
+.logo {
+  width: 230px;
+  height: auto;
+  display: inline-block;
+}
+
+.nav-bar {
+  float: right;
+  list-style: none;
+}
+
+.nav-bar li {
+  display: inline-block;
+}
+
+.nav-bar li a:link,
+.nav-bar li a:visited {
+  text-decoration: none;
+  color: rgb(46, 46, 46);
+  margin: 0 3px;
+  padding: 0 20px 8px 20px;
+  border-bottom: 2px solid transparent;
+  transition: border 0.3s;
+}
+
+.nav-bar li a:hover,
+.nav-bar li a:active {
+  border-bottom: 2px solid rgb(54, 54, 54);
+}
